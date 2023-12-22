@@ -1,0 +1,83 @@
+.hero{
+    height: calc(100vh - 100px);
+    background-color: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+
+    .wrapper {
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+
+        .textContainer {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+
+            h2{
+                font-size: 32px;
+                color: rebeccapurple;
+                text-transform: uppercase;
+                letter-spacing: 10px;
+            }
+
+            h1{
+                font-size: 88px;
+            }
+
+            .buttons{
+                button{
+                    padding: 20px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    color: #fff;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                }
+            }
+
+            img{
+                width: 50px;
+            }
+        }
+    }
+
+    // .imageContainer{
+    //     height: 100%;
+    //     position: absolute;
+    //     top: 0;
+    //     right: 15%;
+
+    //     .radiusContainer{
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: center;
+    //         border-radius: 50%;
+    //         width: 500px;
+    //         height: 500px;
+    //         background-color: #00000067;
+    //         overflow: hidden;
+    //     }
+    //     img{
+    //         width: auto;
+    //         height: auto;
+    //     }
+    // }
+
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom: -120px;
+        left: 0;
+        white-space: nowrap;
+        color: #ffffff09;
+        width: 50%;
+        font-weight: bold;
+    }
+}
