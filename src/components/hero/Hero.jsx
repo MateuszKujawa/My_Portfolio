@@ -56,7 +56,7 @@ const Hero = () => {
             <motion.button variants={ textVariants }>Moje ostatnie projekty</motion.button>
             <motion.button variants={ textVariants }>Kontakt</motion.button>
           </motion.div>
-          <motion.img variants={ textVariants } animate="scrollButton" src="/scroll.png" alt="" />
+          <motion.img variants={ textVariants } animate="scrollButton" src="/scroll.png"/>
         </motion.div>
         <motion.div 
         className="slidingTextContainer" 
